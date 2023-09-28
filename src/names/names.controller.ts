@@ -69,7 +69,6 @@ export class NamesController {
 
         </body>
         </html>
-
-`;
+    `;
     }
 }

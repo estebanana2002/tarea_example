@@ -12,7 +12,18 @@ export class TasksService {
             title: 'My first task',
             description: 'The first task of the tasks',
             status: TaskStatus.PENDING
-
+        },
+        {
+            id: '123sgsdfsdf',
+            title: 'Tarea del profe moy',
+            description: 'Realizar una app backend basica para la clase del profe moy',
+            status: TaskStatus.DONE
+        },
+        {
+            id: '34dfgfd',
+            title: 'Comprar un servidor web para mi solo',
+            description: 'Ahorrar como por 10 años para comprar un servidor nomas pa presumirlo y asi',
+            status: TaskStatus.INPROGRESS
         }
     ]
     getAllTasks() {
